@@ -1,0 +1,70 @@
+/* Allgemeine Stile */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+
+}
+
+#home{
+    background-image: url('img/background_title.png');
+    color: white;
+    background-position: -1px -99px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+
+/* Header */
+
+header {
+    background-color: #323232;
+    color: #fff;
+    padding: 20px;
+    /*float:right;*/
+    Text-align:center;
+    width: 100%;
+}
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    Text-align:center;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Sektionen */
+
+section {
+    padding: 50px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #323232;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
