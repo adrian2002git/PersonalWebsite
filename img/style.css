@@ -22,30 +22,59 @@ body {
     padding: 20px;
 
 }
+.container {
+    display: table;
+
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+.textbox {
+    width: 600px;
+    float: left;
+    padding: 0px 20px 20px 20px;
+
+}
+
+#delinat{
+    background: white;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.box {
+    position: absolute;
+    width: 485px;
+    float: right;
+    padding: 20px;
+    left: 35%;
+    z-index: -10;
+}
+
 
 a{
-    color: white;
-    margin-left: 15px;
+color: white;
+margin-left: 15px;
 }
 
 p{
-    width: 50%
+width: 50%
 }
 
 #portrait{
-    width: 500px;
-    float: right
+width: 400px;
+float: right
 }
 
-/* Header */
 
 header {
     background-color: #323232;
     color: #fff;
     padding: 20px;
     /*float:right;*/
-    Text-align:center;
-    font-size: 35px;
+    font-size: 20px;
 }
 
 .fixed-nav {
@@ -53,14 +82,13 @@ header {
     top: 0;
     width: 100%;
     padding: 20px;
-    Text-align:center;
 }
 
 
 nav ul {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0px 100px 0px 100px;
 }
 
 nav ul li {
@@ -78,15 +106,11 @@ nav ul li a:hover {
     color: black;
 }
 
-/* Sektionen */
-
 section {
-    padding: 100px;
+    padding: 0px 100px 100px 100px;
     border-bottom: white 1px solid;
-    font-size: 25px;
+    font-size: 20px;
 }
-
-/* Footer */
 
 footer {
     background-color: #323232;
@@ -96,9 +120,16 @@ footer {
 }
 
 .bio-content{
-    border: white 1px solid;
     width: 50%;
     padding: 10px;
+    float: right;
+}
+
+.content-left{
+
+    width: 50%;
+    padding: 10px;
+    float: left;
 }
 
 .grid-container {
@@ -108,14 +139,20 @@ footer {
 }
 
 .grid-item {
-    text-align: center;
+    text-align: left;
 }
 
 .grid-item p {
-    text-align: right;
+    text-align: left;
 }
 
 .grid-item img {
     max-width: 50%;
     height: auto;
 }
+
+.icon{
+    width: 100px;
+}
+
+
