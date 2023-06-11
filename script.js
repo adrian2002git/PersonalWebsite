@@ -18,7 +18,7 @@
 } else {
     navbar.removeClass('fixed-nav');
 }
-        if (scrollPosition <= 320) {
+        if (scrollPosition <= 400) {
             navbar.removeClass('fixed-nav');
         }
 }

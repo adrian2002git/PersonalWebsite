@@ -11,14 +11,13 @@
 <body>
 <div id="home">
     <h1>Willkommen auf meiner Webseite!</h1>
-    <h2>Die Webseite ist ein Persönliches Portfolio.</h2>
 </div>
 <header>
     <nav>
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">Über mich</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#Programmiersprachen">Meine Programmiersprachen</a></li>
             <li><a href="#contact">Kontakt</a></li>
         </ul>
     </nav>
@@ -27,6 +26,9 @@
     <section id="about">
         <img id="portrait" src="img/adrian_pic.png">
         <h1>Über mich</h1>
+        <details class="bio-details">
+            <summary>Kurze Biografie</summary>
+            <div class ="bio-content">
         <p><strong>Geboren:</strong> 02.11.2002</p>
         <p><strong>Beruf:</strong> Informatiker Applikationsentwicklung</p>
         <p><strong>Nationalität:</strong> Schweiz</p>
@@ -39,7 +41,8 @@
             <li>Freundeskreis</li>
             <li>Fitness</li>
         </ul>
-        </p>
+            </div>
+            </details>
 
 
         <h3>Informatiker in Ausbildung</h3>
@@ -58,19 +61,45 @@
             <img src="img/pdf%20(1).png" style="width: 25px"><a href="assets/Quartalsarbeit_Adrian_Orlamünde.pdf" download>Delinat-Methode</a>
 
         </p>
+
     </section>
 
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <p>Hier können Sie Beispiele meiner Arbeit anzeigen.</p>
-    </section>
+    <section id="Programmiersprachen">
+        <h2>Meine Programmiersprachen</h2>
+        <p>Hier ist eine Übersicht der Programmiersprachen welche ich gelerent und angewendet habe:</p>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="img/cis.png" alt="Image 1">
+                <p>C#</p>
+            </div>
+            <div class="grid-item">
+                <img src="img/html.png" alt="Image 2">
+                <p>Html/CSS</p>
+            </div>
+            <div class="grid-item">
+                <img src="img/php.png" alt="Image 3">
+                <p>PHP</p>
+            </div>
+            <div class="grid-item">
+                <img src="img/java.png" alt="Image 4">
+                <p>Java</p>
+            </div>
+            <div class="grid-item">
+                <img src="img/javascript.png" alt="Image 5">
+                <p>JavaScript</p>
+            </div>
+            <div class="grid-item">
+                <img src="img/sql-server.png" alt="Image 6">
+                <p>SQL</p>
+            </div>
+        </div>    </section>
 
     <section id="contact">
-        <h2>Kontakt</h2>
+        <h2>Meine Kontaktdaten</h2>
         <p>Sie können mich über die folgenden Kontaktdaten erreichen:</p>
         <ul>
-            <li>Email: yourname@example.com</li>
-            <li>Telefon: 123-456-7890</li>
+            <li><strong>Email:</strong>  adrian.orlamuende@gmail.com</li>
+            <li><strong>Github:</strong><a href="https://github.com/adrian2002git" target="_blank">https://github.com/adrian2002git</a></li>
         </ul>
     </section>
 </div>
