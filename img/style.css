@@ -1,0 +1,96 @@
+
+
+body {
+    font-family: IBM Plex Sans, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #101010;
+    color: white;
+}
+
+#home{
+    background-image: url(background_title.png);
+    color: white;
+    background-position: -1px -99px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 30vh;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+a{
+    color: white;
+    margin-left: 15px;
+}
+
+p{
+    width: 50%
+}
+
+#portrait{
+    width: 500px;
+    float: right
+}
+
+/* Header */
+
+header {
+    background-color: #323232;
+    color: #fff;
+    padding: 20px;
+    /*float:right;*/
+    Text-align:center;
+    font-size: 35px;
+}
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    Text-align:center;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+/* Sektionen */
+
+section {
+    padding: 100px;
+    border-bottom: white 1px solid;
+    font-size: 25px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #323232;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
